@@ -43,8 +43,7 @@ namespace HomeWork3
                 numbertron.Generate();
                 
             }
-
-            //Console.WriteLine("Очки {0}: " + Jay.Score + "\n" + "Очки {1}: " + Bob.Score, Jay.Name, Bob.Name);
+                        
 
             if (Jay.Score > Bob.Score)
                 Console.WriteLine("Победитель : " + Jay.Name + "!");

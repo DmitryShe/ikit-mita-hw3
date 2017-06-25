@@ -18,6 +18,10 @@ namespace HomeWork3
         public override void FetchNewNumber(int number)
         {
             if (number.IsEven()) Score++;
+            
+            Console.WriteLine("Jay score: " + Score);
+            
+
         }
 
        
