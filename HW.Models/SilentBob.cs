@@ -8,11 +8,11 @@ namespace HomeWork3
 {    
     public class SilentBob : Gambler
     {
-        string Name;
+        
 
-        public SilentBob(string name) : base(name)
+        public SilentBob() : base("Silent Bob")
         {
-            this.Name = name;
+           
         }
 
         public override void FetchNewNumber(int number)

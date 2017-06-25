@@ -13,8 +13,8 @@ namespace HomeWork3
             Name = name;
         }
 
-        public readonly string Name;
-        public int Score { get; internal set; }
+        public string Name { get; }
+        public int Score { get; protected set; }
 
         public abstract void FetchNewNumber(int number);
         

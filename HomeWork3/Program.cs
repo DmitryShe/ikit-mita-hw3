@@ -30,8 +30,8 @@ namespace HomeWork3
                 }
             }
 
-            var Jay = new Jay("Jay");
-            var Bob = new SilentBob("SilentBob");          
+            var Jay = new Jay();
+            var Bob = new SilentBob();          
             
             var numbertron = new Numbertron();
 
@@ -42,6 +42,7 @@ namespace HomeWork3
             {
                 numbertron.Generate();
                 
+
             }
                         
 
